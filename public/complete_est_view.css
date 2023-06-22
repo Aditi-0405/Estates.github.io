@@ -1,0 +1,68 @@
+.info_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40rem; /* Adjust the width as per your preference */
+    /* height: 20rem; */
+    margin: 2rem auto; /* Centers the card horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .est_photo{
+    width: 25rem;
+    
+    
+  }
+  .info{
+    display: flex;
+    
+  }
+  .info h5{
+    padding: 1.5rem;
+  }
+  .info_box1 {
+    display: flex;
+    flex-direction: column;
+    
+    width: 40rem; /* Adjust the width as per your preference */
+    /* height: 20rem; */
+    margin: 2rem auto; /* Centers the card horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .underline_t{
+    text-decoration: underline;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    box-shadow: 0 5px 5px -2px burlywood;
+   
+}
+
+.buy_sell{
+    margin-right: auto;
+    padding: 30px 30px;
+    
+    
+    
+
+}
+.log_reg{
+    padding: 30px 30px;
+
+}
+.buy_sell>a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+.log_reg> a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+}

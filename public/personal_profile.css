@@ -1,0 +1,129 @@
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    box-shadow: 0 5px 5px -2px burlywood;
+
+}
+
+
+
+
+.buy_sell {
+    margin-right: auto;
+    padding: 30px 30px;
+
+
+
+
+}
+
+.log_reg {
+    padding: 30px 30px;
+
+}
+
+.buy_sell>a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.log_reg>a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.main_details {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    color: brown;
+    width: 15rem;
+    padding: 15px;
+    border: 1px solid peachpuff;
+    border-radius: 5px;
+    background-color: azure;
+
+}
+
+.centre_items {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    color: brown;
+    width: 55rem;
+    padding: 35px;
+    border: 1px solid peachpuff;
+    border-radius: 5px;
+    background-color: azure;
+    margin-left: 10px;
+    height: auto;
+
+    align-items: center;
+    justify-content: center;
+    /* margin: 0rem auto;  */
+
+}
+
+.test {
+    display: flex;
+}
+
+.main_details a {
+    text-decoration: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 0.08rem;
+
+}
+
+.section_child:hover {
+
+
+    cursor: pointer;
+}
+
+.estate_comp_view {
+    text-decoration: none;
+    /* font-size: larger; */
+    color: #0f5132;
+}
+
+.estate_photo {
+    width: 400px;
+
+}
+
+.section_child:hover {
+
+
+    cursor: pointer;
+}
+
+.estate_comp_view {
+    text-decoration: none;
+    /* font-size: larger; */
+    color: #0f5132;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color: #0f5132;
+}
+.info_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40rem; /* Adjust the width as per your preference */
+    /* height: 20rem; */
+    margin: 2rem auto; /* Centers the card horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

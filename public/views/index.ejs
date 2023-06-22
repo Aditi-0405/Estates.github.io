@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <!-- <form action="/api/v1/estates/uploads" method="POST" enctype="multipart/form-data"  id="form_sub"> -->
+    <!-- <form action="/api/v1/estates/uploads" method="POST" enctype="multipart/form-data" id="form_sub"> -->
+    <!-- <form  method="POST" enctype="multipart/form-data" id="form_sub">    this worked-->
+    <!-- <input type="file" name="profileImage"/>
+        <button type="submit">Upload</button> -->
+        <div class="nav">
+            <div class="buy_sell">
+                <a href="/">HOME</a>
+                <a href="/display">BUY</a>
+                
+            </div>
+
+            <!-- <button  class="search" id="create">SEARCH</button> -->
+            <div class="log_reg">
+                <a href="/login">LOGIN</a>
+                <a href="/register">REGISTER</a>
+                <a id="username2" href="#"></a>
+            </div>
+
+        </div>
+
+
+
+    <form method="POST" id="form_sub" enctype="multipart/form-data" class="form2" >
+        <h5>Please fill out the necessary details</h5>
+        <label for="title" class="form-label">TITLE</label>
+        <input type="text" id="title" name="title" class="form-input" required><br><br>
+
+        <label for="description" class="form-label">DESCRIPTION</label>
+        <input type="text" id="description" name="description" class="form-input" required><br><br>
+
+        <label for="price" class="form-label">PRICE</label>
+        <input type="number" id="price" name="price" class="form-input" required><br><br>
+
+        <label for="location" class="form-label">LOCATION</label>
+        <input type="text" id="location" name="location" class="form-input" required><br><br>
+
+        <label for="area" class="form-label">AREA(in acres) </label>
+        <input type="number" id="area" name="area" class="form-input" required><br><br>
+
+        <label for="garage" class="form-label">GARAGE</label>
+        <input type="checkbox" id="garage" name="garage"  ><br><br>
+
+        <label for="bedrooms" class="form-label">BEDROOMS</label>
+        <input type="number" id="bedrooms" name="bedrooms"class="form-input" ><br><br>
+
+        <label for="yearbuilt" class="form-label">YEAR BUILT</label>
+        <input type="number" id="yearbuilt" name="yearbuilt" class="form-input" required><br><br>
+
+        <label for="amenities" class="form-label">AMENITIES</label>
+        <input type="text" id="amenities" name="amenities" class="form-input" ><br><br>
+
+        <label for="photo" class="form-label">UPLOAD PHOTO</label>
+        <input type="file" id="photo" name="photo"  required /><br><br>
+
+        <label for="agentname" class="form-label">AGENT NAME</label>
+        <input type="text" id="agentname" name="agentname" class="form-input" required /><br><br>
+
+        <label for="agentemail" class="form-label">AGENT EMAIL</label>
+        <input type="email" id="agentemail" name="agentemail" class="form-input" required /><br><br>
+
+        <label for="agentphonenumber" class="form-label">AGENT PHONE NUMBER</label>
+        <input type="text" id="agentphonenumber" name="agentphonenumber" class="form-input"  required /><br><br>
+
+        <button type="submit">SUBMIT </button>
+        <!-- <img src="./1685541520520-Screenshot 2022-10-30 093349.png"> -->
+        <!-- <img src="\images\1685601941093-Screenshot 2022-10-30 093349.png">      this worked               -->
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+            integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="../submit_est.js"></script>
+    </form>
+    
+
+</body>
+
+</html>

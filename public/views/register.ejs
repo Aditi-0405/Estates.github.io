@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <div class="nav">
+
+        <div class="buy_sell">
+            <a href="/">HOME</a>
+            <a href="/display">BUY</a>
+
+        </div>
+
+        <!-- <button  class="search" id="create">SEARCH</button> -->
+        <div class="log_reg">
+
+            <a href="/LOGIN">LOGIN</a>
+            <a id="username4" href="#"></a>
+        </div>
+    </div>
+
+
+    <form id="form_reg" class="form">
+        <h5>REGISTER</h5>
+        <label for="name" class="form-label">NAME</label>
+        <input type="text" id="name_reg" name="name" class="form-input" required>
+
+        <label for="email_reg" class="form-label">EMAIL</label>
+        <input type="email" id="email_reg" name="email" class="form-input" required>
+
+        <label for="password" class="form-label">PASSWORD</label>
+        <input type="password" id="password_reg" name="password" class="form-input" required>
+
+        <button type="submit" id="registration_sub">SUBMIT</button>
+
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../reg.js"></script>
+</body>
+
+</html>
