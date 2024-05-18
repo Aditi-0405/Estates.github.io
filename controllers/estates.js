@@ -87,6 +87,9 @@ const createEstate = async (req, res) => {
 
             photos: imagePathf
 
+
+
+            
         });
         // console.log(newEstate)
         
